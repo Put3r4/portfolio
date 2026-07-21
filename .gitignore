@@ -1,0 +1,135 @@
+# ============================================================
+# .gitignore — Saputra Budiman Portfolio
+# Static HTML/CSS/JS site (no framework, no build step)
+# ============================================================
+
+
+# ─── Operating System ────────────────────────────────────────
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+
+# ─── Editor & IDE ────────────────────────────────────────────
+
+# VS Code
+.vscode/
+!.vscode/extensions.json   # keep recommended extensions if you use one
+
+# JetBrains (WebStorm, etc.)
+.idea/
+*.iml
+
+# Vim / Emacs swap files
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+
+# ─── Sensitive / Personal Files ──────────────────────────────
+
+# Environment variables — NEVER commit secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Private notes or drafts you don't want public
+notes/
+private/
+draft/
+todo.txt
+TODO.md
+
+# Backup files accidentally created
+*.bak
+*.orig
+*.tmp
+
+
+# ─── CV / Resume — optional control ──────────────────────────
+# The CV is intentionally PUBLIC in this portfolio (linked for download).
+# If you ever want to keep a draft version private, name it:
+#   cv/Saputra_Budiman_CV_DRAFT.pdf  → caught by rule below
+cv/*_DRAFT.*
+cv/*_draft.*
+cv/private/
+
+
+# ─── Photo / Assets — large raw files ────────────────────────
+# Keep the web-ready photo (assets/saputra-photo.jpg) tracked.
+# Exclude large originals you don't need in the repo:
+assets/raw/
+assets/*.psd
+assets/*.ai
+assets/*.xcf
+assets/*.tiff
+assets/*.tif
+# Exclude accidental dumps of sensitive documents
+assets/*.pdf
+assets/*.docx
+assets/*.xlsx
+
+
+# ─── Logs & Debug Output ─────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ─── Node / Package Managers (if you ever add tooling) ───────
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp
+.pnp.js
+.yarn/
+
+
+# ─── Build / Distribution Artifacts ─────────────────────────
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.vite/
+
+
+# ─── Deployment Configs with Secrets ─────────────────────────
+.netlify/
+.vercel/
+vercel.json          # uncomment if yours contains secrets
+# netlify.toml       # uncomment if yours contains secrets
+
+
+# ─── Testing ─────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+
+# ─── Miscellaneous ───────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
