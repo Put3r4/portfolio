@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO & Social Meta -->
+  <title>Saputra Budiman — Data Science Portfolio</title>
+  <meta name="description" content="Data Science Enthusiast — Data Collection, Validation &amp; Labeling. Informatics student specializing in large-scale dataset pipelines, data cleaning, feature engineering, and ML." />
+  <meta name="keywords" content="Saputra Budiman, Data Science, Data Collection, Data Validation, Python, Pandas, Machine Learning, Portfolio" />
+  <meta name="author" content="Saputra Budiman" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://put3r4.github.io/portfolio/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Saputra Budiman — Data Science Portfolio" />
+  <meta property="og:description" content="Data Science Enthusiast — Data Collection, Validation &amp; Labeling" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Saputra Budiman — Data Science Portfolio" />
+  <meta name="twitter:description" content="Data Science Enthusiast — Data Collection, Validation &amp; Labeling" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====================================================
+       NAVIGATION
+       ==================================================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Saputra Budiman — Home">
+        <span>&lt;</span>SB<span>/&gt;</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#home"     id="nav-home">Home</a></li>
+        <li><a href="#about"    id="nav-about">About</a></li>
+        <li><a href="#skills"   id="nav-skills">Skills</a></li>
+        <li><a href="#experience" id="nav-experience">Experience</a></li>
+        <li><a href="#project"  id="nav-project">Project</a></li>
+        <li><a href="#education" id="nav-education">Education</a></li>
+        <li><a href="#contact"  id="nav-contact" class="nav-cta">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile nav -->
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+    <a href="#home"      class="mobile-link">Home</a>
+    <a href="#about"     class="mobile-link">About</a>
+    <a href="#skills"    class="mobile-link">Skills</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#project"   class="mobile-link">Featured Project</a>
+    <a href="#education" class="mobile-link">Education</a>
+    <a href="#contact"   class="mobile-link">Contact</a>
+  </nav>
+
+  <main>
+    <!-- ====================================================
+         HERO — #home
+         ==================================================== -->
+    <section id="home" aria-labelledby="hero-name">
+      <div class="container">
+        <div class="hero-inner">
+          <!-- Text content -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span>Available for Data Science Roles</span>
+            </div>
+
+            <h1 class="hero-name" id="hero-name">Saputra Budiman</h1>
+
+            <p class="hero-title">
+              Data Science Enthusiast | <strong>Data Collection, Validation &amp; Labeling</strong>
+            </p>
+
+            <p class="hero-tagline">
+              I collect, clean, and validate large-scale datasets — from raw institutional sources to model-ready features.
+            </p>
+
+            <div class="hero-meta">
+              <span>
+                <!-- Pin icon -->
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+                Sumbawa Besar, NTB, Indonesia
+              </span>
+              <span>
+                <!-- Briefcase icon -->
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+                </svg>
+                Open to Opportunities
+              </span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="cv/Saputra_Budiman_CV.pdf" download class="btn btn-primary" id="hero-download-cv" aria-label="Download CV PDF">
+                <!-- Download icon -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download CV
+              </a>
+              <a href="#contact" class="btn btn-outline" id="hero-contact-me" aria-label="Go to Contact section">
+                <!-- Mail icon -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                </svg>
+                Contact Me
+              </a>
+            </div>
+          </div>
+
+          <!-- Avatar -->
+          <div class="hero-avatar-wrap">
+            <div class="avatar-ring" role="img" aria-label="Photo of Saputra Budiman">
+              <img
+                class="avatar-img"
+                src="assets/saputra-photo.jpg"
+                alt="Saputra Budiman"
+                loading="eager"
+                id="avatar-img"
+              />
+              <!-- Fallback if image not found yet -->
+              <div class="avatar-placeholder" id="avatar-placeholder" style="display:none;" aria-hidden="true">SB</div>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://linkedin.com/in/saputrabudiman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" id="hero-linkedin">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+                </svg>
+              </a>
+              <a href="https://github.com/Put3r4" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" id="hero-github">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+              </a>
+              <a href="mailto:saputrabudiman77@gmail.com" aria-label="Email Saputra" id="hero-email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </a>
+              <a href="https://wa.me/6285729945113" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp chat" id="hero-whatsapp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                  <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.948-1.424A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         ABOUT — #about
+         ==================================================== -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title" id="about-heading">Who I Am</h2>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm an <span class="about-highlight">Informatics student at Sumbawa University of Technology</span>, currently deepening my expertise through the
+              <span class="about-highlight">Coding Camp powered by DBS Foundation × Dicoding</span> Data Scientist scholarship program — a rigorous, intensive track that puts theory into practice every single day.
+            </p>
+            <p>
+              My core strength is working with messy, real-world data at scale. I've built end-to-end pipelines in <span class="about-highlight">Python and Pandas</span> to collect, clean, and validate multi-source institutional datasets — including a national-scale food price monitoring project that consolidated hundreds of thousands of historical rows across hundreds of Indonesian districts into a single model-ready dataset.
+            </p>
+            <p>
+              I'm comfortable working under precise labeling and quality guidelines, writing documentation for full reproducibility, and collaborating cross-functionally with teams. Whether it's resolving header noise, engineering calendar features, or designing preprocessing plans that prevent data leakage — I focus on getting the data right before anything else.
+            </p>
+          </div>
+
+          <div class="about-cards reveal reveal-delay-1">
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                </svg>
+              </div>
+              <div class="info-card-content">
+                <h4>Full Name</h4>
+                <p>Saputra Budiman</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="info-card-content">
+                <h4>Location</h4>
+                <p>Sumbawa Besar, NTB, Indonesia</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div class="info-card-content">
+                <h4>Email</h4>
+                <p><a href="mailto:saputrabudiman77@gmail.com">saputrabudiman77@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div class="info-card-content">
+                <h4>Phone / WhatsApp</h4>
+                <p><a href="https://wa.me/6285729945113" target="_blank" rel="noopener noreferrer">+62 857-2994-5113</a></p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+              </div>
+              <div class="info-card-content">
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/Put3r4" target="_blank" rel="noopener noreferrer">github.com/Put3r4</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         SKILLS — #skills
+         ==================================================== -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-label">Technical Arsenal</div>
+        <h2 class="section-title" id="skills-heading">Skills &amp; Technologies</h2>
+        <p class="section-desc">A snapshot of my technical toolkit — from data wrangling to machine learning and deployment.</p>
+
+        <div class="skills-grid">
+
+          <!-- Programming -->
+          <div class="skill-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python (OOP)</span>
+              <span class="skill-tag">Unit Testing</span>
+              <span class="skill-tag">PEP 8</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">JavaScript (ES6)</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+            </div>
+          </div>
+
+          <!-- Data Collection & Validation -->
+          <div class="skill-card reveal reveal-delay-1">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                </svg>
+              </div>
+              <h3>Data Collection &amp; Validation</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Multi-source Collection</span>
+              <span class="skill-tag">Data Cleaning</span>
+              <span class="skill-tag">Data Wrangling</span>
+              <span class="skill-tag">Quality Validation</span>
+              <span class="skill-tag">Outlier Labeling (IQR)</span>
+              <span class="skill-tag">Missing-value Handling</span>
+              <span class="skill-tag">Reproducibility Docs</span>
+            </div>
+          </div>
+
+          <!-- Data Processing & ML -->
+          <div class="skill-card reveal reveal-delay-2">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+                </svg>
+              </div>
+              <h3>Data Processing &amp; ML</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Scikit-Learn</span>
+              <span class="skill-tag">ETL Pipelines</span>
+              <span class="skill-tag">REST API Integration</span>
+              <span class="skill-tag">Classification</span>
+              <span class="skill-tag">Regression</span>
+              <span class="skill-tag">Clustering</span>
+              <span class="skill-tag">Feature Engineering</span>
+              <span class="skill-tag">Hyperparameter Tuning</span>
+            </div>
+          </div>
+
+          <!-- Visualization & Database -->
+          <div class="skill-card reveal reveal-delay-3">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+                </svg>
+              </div>
+              <h3>Visualization &amp; Database</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Matplotlib</span>
+              <span class="skill-tag">Seaborn</span>
+              <span class="skill-tag">Streamlit</span>
+              <span class="skill-tag">Google Sheets</span>
+              <span class="skill-tag">SQL Window Functions</span>
+              <span class="skill-tag">CTEs</span>
+              <span class="skill-tag">Complex Joins</span>
+              <span class="skill-tag">Google BigQuery</span>
+            </div>
+          </div>
+
+          <!-- Tools & Workflow -->
+          <div class="skill-card reveal">
+            <div class="skill-card-header">
+              <div class="skill-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
+              <h3>Tools &amp; Workflow</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git / GitHub</span>
+              <span class="skill-tag">Branching & PRs</span>
+              <span class="skill-tag">Code Review</span>
+              <span class="skill-tag">Jupyter Notebook</span>
+              <span class="skill-tag">Google Colab</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         EXPERIENCE — #experience
+         ==================================================== -->
+    <section id="experience" class="section" aria-labelledby="exp-heading">
+      <div class="container">
+        <div class="section-label">Work History</div>
+        <h2 class="section-title" id="exp-heading">Experience</h2>
+        <p class="section-desc">Hands-on experience building data systems and mentoring future developers.</p>
+
+        <div class="timeline">
+
+          <!-- Item 1 -->
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Data Scientist — Intensive Scholarship Program</h3>
+                <span class="timeline-period">Feb 2026 – Jul 2026</span>
+              </div>
+              <p class="timeline-org">Coding Camp by DBS Foundation 2026 × Dicoding</p>
+              <ul class="timeline-bullets" aria-label="Responsibilities and achievements">
+                <li>Intensive data science training program exceeding <span class="mono">5+ hrs/day</span> of structured learning and project work.</li>
+                <li>Built, trained, and evaluated supervised ML models for e-commerce sales analysis, achieving <span class="mono">80%+</span> accuracy across classification and regression tasks.</li>
+                <li>Applied SQL for data extraction, analytical modeling workflows, and structured reporting.</li>
+                <li>Completed hands-on modules in feature engineering, hyperparameter tuning, and model validation best practices.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="timeline-item reveal reveal-delay-1">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">IT Development &amp; Insight Staff</h3>
+                <span class="timeline-period">2024 – 2025</span>
+              </div>
+              <p class="timeline-org">HMIT — Sumbawa University of Technology</p>
+              <ul class="timeline-bullets" aria-label="Responsibilities and achievements">
+                <li>Led a district-level IT bootcamp, mentoring <span class="mono">12</span> high school students from programming fundamentals all the way to deploying Laravel web applications.</li>
+                <li>Facilitated weekly classes covering Python fundamentals, web development concepts, and Laravel framework implementation.</li>
+                <li>Designed and structured curriculum materials for reproducible, beginner-friendly learning outcomes.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         FEATURED PROJECT — #project
+         ==================================================== -->
+    <section id="project" class="section" aria-labelledby="project-heading">
+      <div class="container">
+        <div class="section-label">Case Study</div>
+        <h2 class="section-title" id="project-heading">Featured Project</h2>
+        <p class="section-desc">A national-scale data engineering challenge — from raw Excel sheets to a model-ready feature store.</p>
+
+        <div class="project-card reveal">
+
+          <!-- Project Header -->
+          <div class="project-header">
+            <div class="project-info">
+              <span class="project-badge">Data Pipeline · Feature Engineering · EDA</span>
+              <h3 class="project-title">Pantau Pasar — National Food Price<br/>Data Pipeline &amp; Feature Engineering</h3>
+              <p class="project-role">Role: <strong>Data Scientist</strong> · Coding Camp powered by DBS Foundation × Dicoding</p>
+            </div>
+
+            <div class="project-stats">
+              <div class="stat-box">
+                <span class="stat-value mono">23,709</span>
+                <span class="stat-label">rows · National level</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value mono">456,590</span>
+                <span class="stat-label">rows · 514 districts/cities</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-value mono">21</span>
+                <span class="stat-label">food commodities integrated</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Body -->
+          <div class="project-body">
+
+            <div class="project-col">
+              <p class="project-section-title">Data Collection &amp; Cleaning</p>
+              <ul class="project-bullets">
+                <li>Integrated historical price data for <span class="mono">21</span> strategic food commodities from PIHPS Nasional and SP2KP Kemendag (Jan 2022 – Apr 2026), spanning <span class="mono">5</span> Excel files + <span class="mono">1</span> CSV.</li>
+                <li>Resolved header noise, corrected data types, and performed wide-to-long restructuring for analytical compatibility.</li>
+                <li>Applied per-commodity interpolation for missing values and <strong>IQR-based outlier labeling</strong> across all commodity columns.</li>
+                <li>Produced a clean national-level dataset of <span class="mono">23,709 rows</span> and a district/city-level dataset of <span class="mono">456,590 rows</span> across <span class="mono">514</span> administrative regions.</li>
+              </ul>
+
+              <p class="project-section-title">EDA &amp; Correlation Analysis</p>
+              <ul class="project-bullets">
+                <li>Conducted correlation testing over the 2022–2026 window; identified correlations above <span class="mono">0.95</span> among commodity variants.</li>
+                <li>Recommended consolidating <span class="mono">21</span> commodities into <span class="mono">6</span> strategic groups to reduce redundancy and multicollinearity.</li>
+              </ul>
+            </div>
+
+            <div class="project-col">
+              <p class="project-section-title">Feature Engineering</p>
+              <ul class="project-bullets">
+                <li>Engineered <span class="mono">11</span> external feature columns: calendar features (national holidays, Ramadan flag, days-to-Eid) and daily weather metrics via automated <strong>Open-Meteo API</strong> integration.</li>
+                <li>Designed advanced preprocessing plan: encoding strategy, lag/rolling window features, and time-based train/test splits to prevent data leakage.</li>
+              </ul>
+
+              <p class="project-section-title">Business Visualizations</p>
+              <ul class="project-bullets">
+                <li>Year-over-Year price growth analysis across all <span class="mono">21</span> commodities.</li>
+                <li>Coefficient of variation heatmaps for commodity price volatility.</li>
+                <li>Ramadan seasonal impact analysis on food prices.</li>
+                <li>Rainfall vs. chili &amp; shallot price correlation charts.</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Project Footer -->
+          <div class="project-footer">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">NumPy</span>
+              <span class="project-tag">Scikit-Learn</span>
+              <span class="project-tag">Open-Meteo API</span>
+              <span class="project-tag">Matplotlib</span>
+              <span class="project-tag">Seaborn</span>
+              <span class="project-tag">Excel / CSV ETL</span>
+              <span class="project-tag">IQR Outlier Labeling</span>
+              <span class="project-tag">Feature Engineering</span>
+            </div>
+            <a href="https://github.com/Put3r4" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="project-github-link" aria-label="View project on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+              </svg>
+              View on GitHub
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         EDUCATION — #education
+         ==================================================== -->
+    <section id="education" class="section" aria-labelledby="edu-heading">
+      <div class="container">
+        <div class="section-label">Academic Background</div>
+        <h2 class="section-title" id="edu-heading">Education</h2>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon-wrap" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+
+          <div class="edu-details">
+            <h3 class="edu-degree">Bachelor of Informatics (S1)</h3>
+            <p class="edu-school">Sumbawa University of Technology</p>
+            <div class="edu-meta">
+              <span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+                Sep 2024 – Jul 2028 (expected)
+              </span>
+              <span>
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+                Sumbawa, Indonesia
+              </span>
+            </div>
+          </div>
+
+          <div class="edu-gpa">
+            <span class="gpa-value mono">3.83</span>
+            <span class="gpa-label">GPA / 4.00</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         CONTACT — #contact
+         ==================================================== -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title" id="contact-heading">Contact Me</h2>
+        <p class="section-desc">Open to data science roles, freelance data projects, and collaboration opportunities. Let's talk.</p>
+
+        <div class="contact-grid">
+
+          <!-- Left: links -->
+          <div class="contact-left reveal">
+            <div class="contact-links">
+              <a href="mailto:saputrabudiman77@gmail.com" class="contact-link" id="contact-email-link" aria-label="Send email to Saputra">
+                <div class="contact-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">Email</span>
+                  <span class="contact-link-value">saputrabudiman77@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://wa.me/6285729945113" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-whatsapp-link" aria-label="Chat on WhatsApp">
+                <div class="contact-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                    <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.948-1.424A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+                  </svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">Phone / WhatsApp</span>
+                  <span class="contact-link-value">+62 857-2994-5113</span>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/saputrabudiman" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-linkedin-link" aria-label="Visit LinkedIn profile">
+                <div class="contact-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+                  </svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">LinkedIn</span>
+                  <span class="contact-link-value">linkedin.com/in/saputrabudiman</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/Put3r4" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-github-link" aria-label="Visit GitHub profile">
+                <div class="contact-link-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                  </svg>
+                </div>
+                <div class="contact-link-text">
+                  <span class="contact-link-label">GitHub</span>
+                  <span class="contact-link-value">github.com/Put3r4</span>
+                </div>
+              </a>
+            </div>
+
+            <a href="cv/Saputra_Budiman_CV.pdf" download class="btn btn-primary" id="contact-download-cv" style="align-self: flex-start;" aria-label="Download Saputra's CV">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Download CV
+            </a>
+          </div>
+
+          <!-- Right: form -->
+          <div class="contact-form reveal reveal-delay-1">
+            <h3 class="form-title">Send a Message</h3>
+            <p class="form-subtitle">This form opens your email client with the message pre-filled.</p>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label class="form-label" for="form-name">Your Name</label>
+                <input
+                  type="text"
+                  id="form-name"
+                  name="name"
+                  class="form-control"
+                  placeholder="John Doe"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="form-email">Your Email</label>
+                <input
+                  type="email"
+                  id="form-email"
+                  name="email"
+                  class="form-control"
+                  placeholder="john@example.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="form-message">Message</label>
+                <textarea
+                  id="form-message"
+                  name="message"
+                  class="form-control"
+                  placeholder="Hello Saputra, I'd love to discuss..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="form-submit" style="width:100%; justify-content:center;" aria-label="Submit contact form">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                </svg>
+                Send via Email
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================
+       FOOTER
+       ==================================================== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; 2026 <span>Saputra Budiman</span>. Crafted with precision &amp; passion.
+        </p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/saputrabudiman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" id="footer-linkedin">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+          <a href="https://github.com/Put3r4" target="_blank" rel="noopener noreferrer" aria-label="GitHub" id="footer-github">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+          <a href="mailto:saputrabudiman77@gmail.com" aria-label="Email" id="footer-email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/6285729945113" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" id="footer-whatsapp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.948-1.424A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
